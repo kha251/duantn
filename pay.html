@@ -1,0 +1,156 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .ship-cod {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .don-hang {
+            font-weight: 700;
+        }
+
+        .don-sp {
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        .cuoc-vt {
+            font-size: 14px;
+            margin-left: 30%;
+            margin-top: -18%;
+        }
+
+        .nd-don {
+            font-size: 12px;
+        }
+
+        .name-ktv {
+            font-size: 14px;
+        }
+
+        .break-line {
+            display: block;
+        }
+        .nut-dat-hang {
+            background-color: #FF6222;
+            color: #fff;
+            font-weight: 600;
+            font-size: 16px;
+            border: none;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        .nut-dat-hang:hover {
+            opacity: 90%;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-dark">
+    <div class="container my-4">
+        <div class="text-sm mb-4">
+            <p>Bạn đã có tài khoản? Ấn vào đây để <a href="">đăng nhập</a></p>
+            <p>Bạn có mã ưu đãi? Ấn vào đây để nhập mã</p>
+        </div>
+        <hr class="mb-4">
+        <h2 class="h4 font-weight-bold mb-4">THANH TOÁN VÀ GIAO HÀNG</h2>
+        <div class="row">
+            <div class="col-lg-8">
+                <form>
+                    <div class="form-row mb-4">
+                        <div class="form-group col-md-6">
+                            <label for="first-name">Họ*</label>
+                            <input type="text" class="form-control" id="first-name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="last-name">Tên*</label>
+                            <input type="text" class="form-control" id="last-name">
+                        </div>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="address">Địa chỉ*</label>
+                        <input type="text" class="form-control" id="address">
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="postal-code">Mã bưu điện (tùy chọn)</label>
+                        <input type="text" class="form-control" id="postal-code">
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="city">Tỉnh / Thành phố*</label>
+                        <input type="text" class="form-control" id="city">
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="phone">Số điện thoại*</label>
+                        <input type="text" class="form-control" id="phone">
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="email">Địa chỉ email*</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group form-check mb-4">
+                        <input type="checkbox" class="form-check-input" id="create-account">
+                        <label class="form-check-label" for="create-account">Tạo tài khoản mới?</label>
+                    </div>
+                    <h3 class="h5 font-weight-bold mb-2">THÔNG TIN BỔ SUNG</h3>
+                    <div class="form-group mb-4">
+                        <label for="order-notes">Ghi chú đơn hàng (tùy chọn)</label>
+                        <textarea class="form-control" id="order-notes" rows="4"
+                            placeholder="Ghi chú về đơn hàng, ví dụ: thời gian hay chỉ dẫn địa điểm giao hàng chi tiết hơn."></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-4">
+                <div class="border p-4 rounded">
+                    <h6 class="don-hang mb-4">ĐƠN HÀNG CỦA BẠN</h6>
+                    <div class="d-flex mb-4 justify-content-between">
+                        <p class="don-sp">SẢN PHẨM</p>
+                        <p class="don-sp font-weight-bold">TỔNG</p>
+                    </div>
+                    <div class="d-flex mb-4 justify-content-between">
+                        <p class="name-ktv">
+                            Kính thiên văn BOSMA
+                            <span class="break-line">D105F900 Automatic</span>
+                        </p>
+
+                        <p class="text-danger">2.850.000 đ</p>
+                    </div>
+                    <div class="d-flex mb-4 justify-content-between">
+                        <p class=" font-weight-bold ">Tổng phụ</p>
+                        <p class="text-danger">2.850.000 đ</p>
+                    </div>
+                    <div class=" mb-4">
+                        <p class="font-weight-bold">Giao hàng</p>
+                        <p class="cuoc-vt col-md-10">Chịu phí ship theo Viettel Post (Tra trước tại: <a
+                                href="http://www.viettelpost.com.vn/tinh-cuoc-van-chuyen"
+                                class="text-primary">http://www.viettelpost.com.vn/tinh-cuoc-van-chuyen</a>)</p>
+                    </div>
+                    <div class="d-flex mb-4 justify-content-between">
+                        <p class="don-sp">Tổng</p>
+                        <p class="text-danger">2.850.000 đ</p>
+                    </div>
+                    <div class="mb-4">
+                        <h4 class="ship-cod  ">Lưu ý với khách hàng ship COD, GHTK</h4>
+                        <p class="nd-don">Đối với đơn hàng giá trị trên 1.000.000 VNĐ, vui lòng chuyển trước 50% giá trị
+                            hàng vào tài khoản ngân hàng, khi chuyển lưu ý nội dung là số điện thoại, họ và tên khách
+                            hàng. Đơn hàng của bạn sẽ được chuyển đi khi tiền được gửi vào tài khoản của chúng tôi, 50%
+                            còn lại bạn sẽ thanh toán cho người giao hàng. Hãy nhắn nút thanh toán để xác nhận và lấy
+                            thông tin tài khoản ngân hàng.</p>
+                    </div>
+                    <button class="nut-dat-hang">ĐẶT HÀNG</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

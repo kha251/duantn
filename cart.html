@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        .text-orange {
+            color: #ef233c;
+        }
+        .bg-orange {
+            background-color: #ff6600;
+        }
+        .text-primary {
+            text-decoration: none;
+        }
+        .tt-sp {
+            color: #212529;
+            font-weight: 600;
+        }
+        .update-cart {
+            font-weight: 600;
+        }
+        .ap-dung {
+            background-color: #ffffff;
+            color: #383838;
+            font-weight: bold;
+        }
+        .vt-ship {
+            margin-left: 22%;
+            margin-top: -13%;
+        }
+        .ship-vt {
+            margin-left: -2%;
+            margin-top: 5%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row">
+
+            <div class="col-lg-8 border-right">
+                <div class="d-flex justify-content-between border-bottom pb-2 mb-2">
+                    <div class="font-weight-bold">SẢN PHẨM</div>
+                    <div class="font-weight-bold">GIÁ</div>
+                    <div class="font-weight-bold">SỐ LƯỢNG</div>
+                    <div class="font-weight-bold">TỔNG</div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <div class="d-flex align-items-center">
+                        <img src="asset/img/Kính thiên văn PX SkyWatcher 130F650EQ2.jpg" alt="Telescope image" class="mr-3" width="50px" height="auto">
+                        <div>Kính thiên văn BOSMA D105F900 Automatic</div>
+                    </div>
+                    <div class="text-orange font-weight-bold">2.850.000 đ</div>
+                    <div class="d-flex align-items-center">
+                        <button class="btn btn-outline-secondary btn-sm">-</button>
+                        <input type="text" class="form-control text-center mx-2" value="1" style="width: 50px;">
+                        <button class="btn btn-outline-secondary btn-sm">+</button>
+                    </div>
+                    <div class="text-orange font-weight-bold">2.850.000 đ</div>
+                    <button class="btn btn-link text-secondary"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button class="tt-sp btn btn-outline-secondary">TIẾP TỤC XEM SẢN PHẨM</button>
+                    <button class="update-cart btn bg-orange text-white">CẬP NHẬT GIỎ HÀNG</button>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4 mt-lg-0">
+                <div class="border p-4">
+                    <div class="d-flex justify-content-between border-bottom pb-2 mb-2">
+                        <div class="font-weight-bold">TỔNG SỐ LƯỢNG (1)</div>
+                    </div>
+                    <div class="d-flex justify-content-between mb-2">
+                        <div>Tổng phụ</div>
+                        <div class="text-orange font-weight-bold">2.850.000 đ</div>
+                    </div>
+                    <div class="row d-flex justify-content-between mb-2 text-right">
+                        <div class="ship-vt col-md-4">Giao hàng</div>
+                        <div class="vt-ship text-muted col-md-10">
+                            Chịu phí ship theo Viettel Post (Tra cước tại:
+                            <a href="http://www.viettelpost.com.vn/tin-cuoc-van-chuyen" class="text-muted">http://www.viettelpost.com.vn/tinh-cuoc-van-chuyen</a>)
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mb-4">
+                        <div>Tổng</div>
+                        <div class="text-orange font-weight-bold">2.850.000 đ</div>
+                    </div>
+                    <button class="btn bg-orange text-white w-100 mb-4">TIẾN HÀNH THANH TOÁN</button>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fas fa-tag text-dark mr-2"></i>
+                        <div>Phiếu ưu đãi</div>
+                    </div>
+                    <div class="voucher">
+                        <input type="text" class="form-control mr-2 mb-3" placeholder="Mã ưu đãi">
+                        <button class="ap-dung btn btn-secondary align-items-center w-100">Áp dụng</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

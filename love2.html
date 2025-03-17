@@ -1,0 +1,427 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Product Page
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="./asset/img/logo.png">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./asset/css/reset.css">
+    <link rel="stylesheet" href="./asset/css/love.css">
+    
+</head>
+
+<body>
+    <!-- <p class="line"></p>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <p class="header__top-title">Chào mừng bạn đến với TechView!</p>
+                <div class="header__top-lang">
+                    <p class="header__top-lang--vn">Tiếng việt</p>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="header__center">
+                <a href="#!" class="logo">
+                    <img src="./asset/img/logo.jpg" alt="Logo">
+                </a>
+                <div class="search__form-wrapper">
+                    <form action="#" class="search-form">
+                        <input class="search" type="text" placeholder="Tìm kiếm sản phẩm...">
+                        <button class="search-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="header__center-item">
+                    <div class="account">
+                        <div class="account__text">
+                            <p class="account__text-title">Tài khoản</p>
+                            <p class="account__text-desc">Xin chào, đăng nhập</p>
+                        </div>
+                        <div class="account_down">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+
+                    <div class="heart">
+                        <div class="heart-item">
+                            <i class="heart-icon fa-regular fa-heart"></i>
+                            <span class="quantity">1</span>
+                        </div>
+                    </div>
+
+                    <div class="cart">
+                        <div class="cart-item">
+                            <i class="cart-icon fa-solid fa-cart-shopping"></i>
+                            <span class="quantity">1</span>
+                        </div>
+                        <div class="cart__desc">
+                            <p class="cart__desc-quantity">0 sản phẩm</p>
+                            <p class="cart__desc-total">0 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <nav class="navbar">
+                    <a class="nav-item" href="#!">Trang chủ</a>
+                    <a class="nav-item" href="#!">Cửa hàng</a>
+                    <a class="nav-item" href="#!">Phụ kiện</a>
+                    <a class="nav-item" href="#!">Combo</a>
+                    <a class="nav-item" href="#!">Tin tức</a>
+                    <a class="nav-item" href="#!">Liên hệ</a>
+                    <a class="nav-item nav-end" href="#!">Trợ giúp</a>
+                </nav>
+            </div>
+        </div>
+    </header> -->
+    <main>
+        <div class="container bg-white text-black">
+            <div class="container mx-auto p-4 ">
+                <table class="w-full border-collapse">
+                    <thead>
+                        <tr class="border-b">
+                            <th class="text-left p-2">
+                                Sản phẩm
+                            </th>
+                            <th class="text-left p-2">
+                                Giá
+                            </th>
+                            <th class="text-left p-2">
+                                Ngày thêm
+                            </th>
+                            <th class="text-left p-2">
+                                Tình trạng
+                            </th>
+                            <th class="text-left p-2">
+                                Thêm vào giỏ hàng
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b">
+                            <td class="p-2 flex items-center">
+                                <img alt="Kính thiên văn khúc xạ Celestron SCTW 70" class="w-12 h-12 mr-2" height="50"
+                                    src="asset/img/Kính thiên văn khúc xạ Celestron SCTW 70.jpg" width="50" />
+                                Kính thiên văn khúc xạ Celestron SCTW 70
+                            </td>
+                            <td class="p-2">
+                                <span class="line-through">
+                                    3.200.000 ₫
+                                </span>
+                                2.850.000 ₫
+                            </td>
+                            <td class="p-2">
+                                Tháng Hai 27, 2025
+                            </td>
+                            <td class="p-2">
+                                Còn hàng
+                            </td>
+                            <td class="p-2">
+                                <button class="bg-red-500 text-white px-4 py-2 rounded">
+                                    Thêm vào giỏ
+                                </button>
+                            </td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="p-2 flex items-center">
+                                <img alt="Kính Thiên Văn Phản Xạ SkyWatcher N 130/900 Explorer Chân EQ-2 Ống Thép"
+                                    class="w-12 h-12 mr-2" height="50"
+                                    src="asset/img/Kính thiên văn phản xạ Meade Polaris D130F650 EQ.jpg" width="50" />
+                                Kính thiên văn phản xạ Meade Polaris D130F650 EQ
+                            </td>
+                            <td class="p-2">
+                                <span class="line-through">
+                                    6.800.000 ₫
+                                </span>
+                                6.200.000 ₫
+                            </td>
+                            <td class="p-2">
+                                Tháng Hai 27, 2025
+                            </td>
+                            <td class="p-2">
+                                Còn hàng
+                            </td>
+                            <td class="p-2">
+                                <button class="bg-red-500 text-white px-4 py-2 rounded">
+                                    Thêm vào giỏ
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2 class="text-md font-bold mt-8 mb-4">
+                    Có thể bạn sẽ thích
+                </h2>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 ">
+                    <div class="border p-4 ">
+                        <img alt="Kính thiên văn khúc xạ Celestron SCTW 70" class="w-full h-auto mb-4" height="200"
+                            src="asset/img/Kính thiên văn khúc xạ Celestron SCTW 70.jpg" width="200" />
+                        <h3 class="love-name-sp text-md font-semibold">
+                            Kính thiên văn khúc xạ Celestron SCTW 70
+                        </h3>
+                        <div class="flex items-center mb-2">
+                            <span class="text-yellow-500">
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                            </span>
+                            <span class="ml-2">
+                                1 đánh giá
+                            </span>
+                        </div>
+                        <div class="text-red-500 font-bold">
+                            3.200.000 ₫
+                            <span class="line-through text-gray-500">
+                                2.850.000 ₫
+                            </span>
+                        </div>
+                        <div class="mt-2 text-green-500 flex items-center">
+                            <i class="fas fa-check-circle mr-1">
+                            </i>
+                            Còn hàng
+                        </div>
+                    </div>
+                    <div class="border p-4 ">
+                        <img alt="Kính thiên văn khúc xạ Celestron SCTW 70" class="w-full h-auto mb-4" height="200"
+                            src="asset/img/Kính thiên văn mặt trời Meade SolarMax II 90 BF30.jpg" width="200" />
+                        <h3 class="love-name-sp text-md font-semibold">
+                            Kính thiên văn mặt trời Meade SolarMax II 90 BF30
+                        </h3>
+                        <div class="flex items-center mb-2">
+                            <span class="text-yellow-500">
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                            </span>
+                            <span class="ml-2">
+                                1 đánh giá
+                            </span>
+                        </div>
+                        <div class="text-red-500 font-bold">
+                            3.200.000 ₫
+                            <span class="line-through text-gray-500">
+                                2.850.000 ₫
+                            </span>
+                        </div>
+                        <div class="mt-2 text-green-500 flex items-center">
+                            <i class="fas fa-check-circle mr-1">
+                            </i>
+                            Còn hàng
+                        </div>
+                    </div>
+                    <div class="border p-4 ">
+                        <img alt="Kính thiên văn khúc xạ Celestron SCTW 70" class="w-full h-auto mb-4" height="200"
+                            src="/asset/img/Kính thiên văn phản xạ Meade Polaris D130F650 EQ.jpg" width="200" />
+                        <h3 class="love-name-sp text-md font-semibold">
+                            Kính thiên văn phản xạ Meade Polaris D130F650 EQ
+                        </h3>
+                        <div class="flex items-center mb-2">
+                            <span class="text-yellow-500">
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                            </span>
+                            <span class="ml-2">
+                                1 đánh giá
+                            </span>
+                        </div>
+                        <div class="text-red-500 font-bold">
+                            3.200.000 ₫
+                            <span class="line-through text-gray-500">
+                                2.850.000 ₫
+                            </span>
+                        </div>
+                        <div class="mt-2 text-green-500 flex items-center">
+                            <i class="fas fa-check-circle mr-1">
+                            </i>
+                            Còn hàng
+                        </div>
+                    </div>
+                    <div class="border p-4 ">
+                        <img alt="Kính thiên văn khúc xạ Celestron SCTW 70" class="w-full h-auto mb-4" height="200"
+                            src="/asset/img/Kính thiên văn Skywatcher D200F1000 EQ-5.jpg" width="200" />
+                        <h3 class="love-name-sp text-md font-semibold  ">
+                            Kính thiên văn Skywatcher D200F1000 EQ-5
+                        </h3>
+                        <div class="flex items-center mb-2">
+                            <span class="text-yellow-500">
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                            </span>
+                            <span class="ml-2">
+                                1 đánh giá
+                            </span>
+                        </div>
+                        <div class="text-red-500 font-bold">
+                            3.200.000 ₫
+                            <span class="line-through text-gray-500">
+                                2.850.000 ₫
+                            </span>
+                        </div>
+                        <div class="mt-2 text-green-500 flex items-center">
+                            <i class="fas fa-check-circle mr-1">
+                            </i>
+                            Còn hàng
+                        </div>
+                    </div>
+
+                    <div class="border p-4 ">
+                        <img alt="Kính thiên văn khúc xạ Celestron SCTW 70" class="w-full h-auto mb-4" height="200px"
+                            src="/asset/img/Kính thiên văn PX SkyWatcher 130F650EQ2.jpg" width="200" />
+                        <h3 class="love-name-sp text-md font-semibold ">
+                            Kính thiên văn PX SkyWatcher 130F650EQ2
+                        </h3>
+                        <div class="flex items-center mb-2">
+                            <span class="text-yellow-500">
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                            </span>
+                            <span class="ml-2">
+                                1 đánh giá
+                            </span>
+                        </div>
+                        <div class="text-red-500 font-bold">
+                            3.200.000 ₫
+                            <span class="line-through text-gray-500">
+                                2.850.000 ₫
+                            </span>
+                        </div>
+                        <div class="mt-2 text-green-500 flex items-center">
+                            <i class="fas fa-check-circle mr-1">
+                            </i>
+                            Còn hàng
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- <footer>
+        <div class="container-full">
+            <div class="container">
+                <div class="footer-sidebar">
+                    <div class="footer-contact">
+                        <a href="#!" class="footer-logo">
+                            <img src="./asset/img/logo.jpg" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="height-line"></div>
+
+                    <div class="footer_category">
+                        <p class="help">Cần trợ giúp?</p>
+                        <p class="sdt">(+84) 969 729 434</p>
+                        <p class="calendar">Thứ 2 - thứ 7: 7:00 - 20:00</p>
+                        <p>Chủ nhật: 7:00 -15:00</p>
+                    </div>
+
+                    <div class="footer_policy">
+                        <p class="help">Dịch vụ khách hàng</p>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">Trung tâm trợ giúp</li>
+                            <li class="footer__list-item">Tài khoản của tôi</li>
+                            <li class="footer__list-item">Theo dõi sản phẩm</li>
+                            <li class="footer__list-item">Đơn hàng của tôi</li>
+                            <li class="footer__list-item">Danh sách mong muốn của bạn</li>
+                            <li class="footer__list-item">Chính sách trả hàng</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="footer_social">
+                        <p class="help">Thông tin cửa hàng</p>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">Giới thiệu về cửa hàng</li>
+                            <li class="footer__list-item">Bán chạy nhất</li>
+                            <li class="footer__list-item">Sản phẩm mới nhất</li>
+                            <li class="footer__list-item">Giảm giá mới</li>
+                            <li class="footer__list-item">Sản phẩm bán chạy</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="vouchers">
+                    <p class="voucher">-5% cho tất cà các sản phẩm mua trong tuần qua</p>
+                    <div class="line-h"></div>
+                    <p class="free-ship">Giao hàng miển phí cho các đơn hàng trên 1 triệu</p>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <li>Chính sách bảo mật</li>
+                        <li>Theo dõi đơn hàng</li>
+                        <li>Điều khoản và điều kiện</li>
+                        <li>Chính sách hoàn tiền và trả hàng</li>
+                    </ul>
+                </div>
+                <div class="bq">
+                    <p>Bản quyền 2024 © TechView WordPress Theme. Mọi quyền được bảo lưu. Được hỗ trợ TVTheme.</p>
+                    <div class="icons"><img src="asset/img/visa.webp" alt=""></div>
+                </div>
+                <div class="dowload-mobile">
+                    <p>Tải ứng dụng trên điện thoại di động</p>
+                    <img src="asset/img/app-store.webp" alt="">
+                    <img src="asset/img/google-play.webp" alt="">
+                </div> 
+            </div>
+        </div>
+
+    </footer> -->
+    <script src="./asset/js/index.js"></script>
+</body>
+
+</html>
